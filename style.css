@@ -486,11 +486,18 @@ section.top-pr div .tw-qr{
   height:128px;
 }
 @media screen and (max-width:640px){
-  section.top-pr , section.top-pr div{
+  section.top-pr,
+  section.top-pr div{
     display: block;
+    text-align: left;
     width:100% !important;
   }
   section.top-pr div:last-child{
+    display: block;
+    margin:16px auto;
+    text-align: center;
+  }
+  section.top-pr > div:last-child{
     display: none;
   }
 }
