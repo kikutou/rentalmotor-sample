@@ -453,17 +453,21 @@ section.advance{
 section.advance ul{
   display: table;
   table-layout: fixed;
+  width:100%;
   max-width:1126px;
   margin:0 auto 32px;
 }
 section.advance ul li{
   display: table-cell;
   vertical-align: bottom;
+  width:25%;
   text-align: center;
 }
 section.advance ul li img{
+  width:auto;
   max-width:50%;
   height:auto;
+  max-height:96px;
   text-align: center;
 }
 
